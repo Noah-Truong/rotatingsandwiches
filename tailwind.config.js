@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'scroll-slow': 'scroll 180s linear infinite',
-        'scroll': 'scroll 120s linear infinite',
-        'scroll-fast': 'scroll 60s linear infinite',
+        'scroll-slow': 'scroll 45s linear infinite',
+        'scroll': 'scroll 30s linear infinite',
+        'scroll-fast': 'scroll 15s linear infinite',
       },
       keyframes: {
         scroll: {

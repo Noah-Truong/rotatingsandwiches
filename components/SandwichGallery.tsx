@@ -26,7 +26,7 @@ export default function SandwichGallery() {
 
       {/* Gallery track */}
       <div
-        className={`flex gap-8 px-8 ${speedClasses[speed]} ${isPaused ? '[animation-play-state:paused]' : ''} hover:[animation-play-state:paused]`}
+        className={`flex gap-8 px-8 ${speedClasses[speed]} ${isPaused ? '[animation-play-state:paused]' : ''}`}
       >
         {duplicatedSandwiches.map((sandwich, index) => (
           <div
